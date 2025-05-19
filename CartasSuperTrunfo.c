@@ -1,7 +1,8 @@
 #include <stdio.h>
-    printf("Desafio Super Trunfo - Países\n")
 
 int main() {
+
+    printf("Desafio Super Trunfo - Países\n");
 
     int população , pontos_turisticos;
     char estado [30] , cidade [30] , carta [10];
@@ -43,29 +44,29 @@ int main() {
     printf(".\n");
 
     printf("qual o codigo da carta: \n");
-    scanf("%s", &carta2);
+    scanf("%s", &carta02);
 
     printf("qual a população: \n");
-    scanf("%d" , &população2);
+    scanf("%d" , &populacão02);
 
     printf("qual o nome da cidade? \n");
-    scanf("%s", &cidade2);
+    scanf("%s", &cidade02);
 
     printf("qual o pib? \n");
-    scanf("%f", &pib2);
+    scanf("%f", &pib02);
 
     printf("quntos pontos turisticos? \n");
-    scanf("%d", &pontos_turisticos2);
+    scanf("%d", &pontos_turisticos02);
 
     printf("qual a area? \n");
-    scanf("%f", &area2);
+    scanf("%f", &area02);
 
     printf("qual o estado? \n");
-    scanf("%s", &estado2);
+    scanf("%s", &estado02);
     
     printf(".\n");
 
-    printf("  carta 01")
+    printf("  carta 01");
     printf("carta: %s\n", carta);
     printf("populacão: %d\n", população);
     printf("cidade: %s\n", cidade);
@@ -76,14 +77,14 @@ int main() {
 
     printf(".\n");
 
-    printf("  carta 02")
-    printf("  carta: %s\n", carta2);
-    printf("populacão: %d\n", população2);
-    printf("cidade: %s\n", cidade2);
-    printf("pib: %f\n",pib2);
-    printf("pontos turisticos: %d\n", pontos_turisticos2);
-    printf("area: %F\n", area2);
-    printf("estado: %s\n",estado2);
+    printf("  carta 02");
+    printf("  carta: %s\n", carta02);
+    printf("populacão: %d\n", população02);
+    printf("cidade: %s\n", cidade02);
+    printf("pib: %f\n",pib02);
+    printf("pontos turisticos: %d\n", pontos_turisticos02);
+    printf("area: %F\n", area02);
+    printf("estado: %s\n",estado02);
 
      return 0;
 
