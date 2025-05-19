@@ -4,9 +4,10 @@ int main() {
 
     printf("Desafio Super Trunfo - Países\n");
 
-    int população , pontos_turisticos;
-    char estado [30] , cidade [30] , carta [10];
-    float area , pib;
+    int população, pontos_turisticos, população2, pontos_turisticos2,
+    char estado [30] , cidade [30] , carta [10], estado2 [30] , cidade2 [30] , carta2 [10];
+    float area , pib, aera2 ,pib2;
+
 
     printf("   carta 01\n");
     
@@ -36,8 +37,8 @@ int main() {
     printf(".\n");
 
     int população2 , pontos_turisticos2;
-    char estado2 [30] , cidade2 [30] , carta2 [10];
-    float area2 , pib2;
+    char estado2 [30], cidade2 [30], carta2 [10];
+    float area2, pib2;
 
     printf("   carta: 02\n");
 
